@@ -4,7 +4,7 @@ A minimal Angular 2 Webpack-based seed project. This is the simplest possible se
 
 Clone it and start using Angular 2 in seconds.
 
-# SystemJs-based alternative
+## SystemJs alternative
 
 If you prefer SystemJs, check the equivalent [ng2-minimal](https://github.com/jhades/ng2-minimal) project.
 
