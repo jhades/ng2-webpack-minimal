@@ -1,4 +1,23 @@
+import 'angular2/bundles/angular2-polyfills';
+import {Component} from 'angular2/core';
+import {bootstrap} from 'angular2/platform/browser';
 
-import {hello} from './hello';
+@Component({
+    selector: 'app',
+    template: `<div>
+                   <input (keyup)="onKeyUp(input)" #input placeholder="Type Here">
+                   {{message}}
+               </div>`
+})
+export class App {
 
-hello();
+    message = "";
+
+    onKeyUp(input) {
+        this.message = input.value;
+    }
+
+}
+
+
+bootstrap(App);
