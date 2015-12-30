@@ -10,7 +10,6 @@ import {HelloWorld} from 'angular2-library-example/components';
     template: `<div>
                    <input (keyup)="onKeyUp(input)" #input placeholder="Type Here">
                    {{message}}
-                   <hello-world></hello-world>
                </div>`
 })
 export class App {
