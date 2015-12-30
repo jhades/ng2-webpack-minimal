@@ -11,6 +11,5 @@ module.exports = {
         loaders: [
             { test: /\.ts$/, loader: 'ts-loader' }
         ]
-    },
-    noParse: [ /.+zone\.js\/dist\/.+/, /.+angular2\/bundles\/.+/ ]
+    }
 };
