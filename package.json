@@ -1,0 +1,28 @@
+{
+  "name": "ng2-webpack-minimal",
+  "version": "1.0.0",
+  "description": "A minimal Webpack-based Angular 2 seed project",
+  "scripts": {
+    "start": "webpack-dev-server --content-base src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhades/ng2-webpack-minimal.git"
+  },
+  "keywords": [
+    "Angular",
+    "2",
+    "Webpack",
+    "Seed"
+  ],
+  "author": "jhades.dev@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhades/ng2-webpack-minimal/issues"
+  },
+  "homepage": "https://github.com/jhades/ng2-webpack-minimal#readme",
+  "devDependencies": {
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
